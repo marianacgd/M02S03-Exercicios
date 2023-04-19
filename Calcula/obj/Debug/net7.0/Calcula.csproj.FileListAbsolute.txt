@@ -1,0 +1,15 @@
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\bin\Debug\net7.0\Calcula.exe
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\bin\Debug\net7.0\Calcula.deps.json
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\bin\Debug\net7.0\Calcula.runtimeconfig.json
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\bin\Debug\net7.0\Calcula.dll
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\bin\Debug\net7.0\Calcula.pdb
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.csproj.AssemblyReference.cache
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.AssemblyInfoInputs.cache
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.AssemblyInfo.cs
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.csproj.CoreCompileInputs.cache
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.dll
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\refint\Calcula.dll
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.pdb
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\Calcula.genruntimeconfig.cache
+C:\Repositorio\mariana\M02S03-Exercicios\Calcula\obj\Debug\net7.0\ref\Calcula.dll
