@@ -1,0 +1,15 @@
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\bin\Debug\net7.0\CadCar.exe
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\bin\Debug\net7.0\CadCar.deps.json
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\bin\Debug\net7.0\CadCar.runtimeconfig.json
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\bin\Debug\net7.0\CadCar.dll
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\bin\Debug\net7.0\CadCar.pdb
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.csproj.AssemblyReference.cache
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.AssemblyInfoInputs.cache
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.AssemblyInfo.cs
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.csproj.CoreCompileInputs.cache
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.dll
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\refint\CadCar.dll
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.pdb
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\CadCar.genruntimeconfig.cache
+C:\Repositorio\mariana\M02S03-Exercicios\CadCar\obj\Debug\net7.0\ref\CadCar.dll

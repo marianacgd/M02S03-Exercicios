@@ -21,7 +21,7 @@ var proprietario3 = new Proprietario()
   Telefone = "(11) 97870-9528"
 };
 
-var carro1 = new Carro()
+Carro carro1 = new Carro()
 {
   Marca = "GM - Chevrolet",
   Modelo = "PRISMA Sed. LT 1.0 8V FlexPower 4p",
@@ -30,7 +30,7 @@ var carro1 = new Carro()
   Proprietario = proprietario1
 };
 
-var carro2 = new Carro()
+Carro carro2 = new Carro()
 {
   Marca = "GM - Chevrolet",
   Modelo = "Corsa Sed. Maxx 1.8 MPFI 8V FlexPower",
@@ -39,7 +39,7 @@ var carro2 = new Carro()
   Proprietario = proprietario2
 };
 
-var carro3 = new Carro()
+Carro carro3 = new Carro()
 {
   Marca = "Ford",
   Modelo = "Ka 1.0 TiCVT Flex 5p",
@@ -47,3 +47,16 @@ var carro3 = new Carro()
   Cor = "Azul",
   Proprietario = proprietario3
 };
+
+
+List<Carro> listaCarros = new List<Carro>();
+
+listaCarros.Add(carro1);
+listaCarros.Add(carro2);
+listaCarros.Add(carro3);
+
+foreach (Carro carro in listaCarros)
+{
+  Console.WriteLine($"{carro.Marca} - {carro.Modelo} - {carro.Placa} - {carro.Cor} - {carro.Proprietario}");
+}
+
