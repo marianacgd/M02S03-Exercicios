@@ -55,8 +55,55 @@ listaCarros.Add(carro1);
 listaCarros.Add(carro2);
 listaCarros.Add(carro3);
 
-foreach (Carro carro in listaCarros)
+//Exercicio 9
+ListarCarros();
+
+///Exercicio 8
+CadastrarNovosCarros();
+
+Console.WriteLine("Exercicio 8\n\n");
+ 
+//Exercicio 9
+ListarCarros();
+
+///Exercicio 8
+void CadastrarNovosCarros() 
 {
-  Console.WriteLine($"{carro.Marca} - {carro.Modelo} - {carro.Placa} - {carro.Cor} - {carro.Proprietario}");
+  Carro carro4 = new Carro();
+  
+  Console.WriteLine("Digite Marca: ");
+  carro4.Marca = Console.ReadLine();
+
+  Console.WriteLine("Digite Modelo: ");
+  carro4.Modelo = Console.ReadLine();
+
+  Console.WriteLine("Digite Placa: ");
+  carro4.Placa = Console.ReadLine();
+
+  Console.WriteLine("Digite Cor: ");
+  carro4.Cor = Console.ReadLine();
+  
+  var proprietario4 = new Proprietario();
+
+  Console.WriteLine("Digite Nome: ");
+  proprietario4.Nome = Console.ReadLine();
+  
+  Console.WriteLine("Digite CPF: ");
+  proprietario4.Cpf = Console.ReadLine();
+  
+  Console.WriteLine("Digite Telefone: ");
+  proprietario4.Telefone = Console.ReadLine();
+
+  carro4.Proprietario = proprietario4;
+  
+  listaCarros.Add(carro4);
 }
 
+void ListarCarros() 
+{
+  foreach (Carro carro in listaCarros)
+  {
+    Console.WriteLine($@"{carro.Marca} - {carro.Modelo} - {carro.Placa} - {carro.Cor} - {carro.Proprietario.Nome}
+                        - {carro.Proprietario.Cpf} - {carro.Proprietario.Telefone}");
+  }
+}
