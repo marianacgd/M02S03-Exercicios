@@ -56,54 +56,93 @@ listaCarros.Add(carro2);
 listaCarros.Add(carro3);
 
 //Exercicio 9
-ListarCarros();
+//ListarCarros();
 
 ///Exercicio 8
-CadastrarNovosCarros();
+//CadastrarNovosCarros();
 
-Console.WriteLine("Exercicio 8\n\n");
- 
 //Exercicio 9
-ListarCarros();
+//ListarCarros();
 
-///Exercicio 8
+//Exercicio 8
 void CadastrarNovosCarros() 
 {
-  Carro carro4 = new Carro();
+  Carro carro = new Carro();
   
   Console.WriteLine("Digite Marca: ");
-  carro4.Marca = Console.ReadLine();
+  carro.Marca = Console.ReadLine();
 
   Console.WriteLine("Digite Modelo: ");
-  carro4.Modelo = Console.ReadLine();
+  carro.Modelo = Console.ReadLine();
 
   Console.WriteLine("Digite Placa: ");
-  carro4.Placa = Console.ReadLine();
+  carro.Placa = Console.ReadLine();
 
   Console.WriteLine("Digite Cor: ");
-  carro4.Cor = Console.ReadLine();
+  carro.Cor = Console.ReadLine();
   
-  var proprietario4 = new Proprietario();
+  var proprietario = new Proprietario();
 
   Console.WriteLine("Digite Nome: ");
-  proprietario4.Nome = Console.ReadLine();
+  proprietario.Nome = Console.ReadLine();
   
   Console.WriteLine("Digite CPF: ");
-  proprietario4.Cpf = Console.ReadLine();
+  proprietario.Cpf = Console.ReadLine();
   
   Console.WriteLine("Digite Telefone: ");
-  proprietario4.Telefone = Console.ReadLine();
+  proprietario.Telefone = Console.ReadLine();
 
-  carro4.Proprietario = proprietario4;
+  carro.Proprietario = proprietario;
   
-  listaCarros.Add(carro4);
+  listaCarros.Add(carro);
+
+  Console.WriteLine("Cadastro Efetuado");
 }
 
 void ListarCarros() 
 {
   foreach (Carro carro in listaCarros)
   {
-    Console.WriteLine($@"{carro.Marca} - {carro.Modelo} - {carro.Placa} - {carro.Cor} - {carro.Proprietario.Nome}
-                        - {carro.Proprietario.Cpf} - {carro.Proprietario.Telefone}");
+    Console.WriteLine($"Marca: {carro.Marca} - Modelo: {carro.Modelo} - Placa: {carro.Placa} - Cor: {carro.Cor} - Nome: {carro.Proprietario.Nome} - CPF: {carro.Proprietario.Cpf} - Telefone: {carro.Proprietario.Telefone}");
+    Console.WriteLine("");
   }
+}
+
+bool showMenu = true;
+
+while(showMenu)
+{
+    int menuSelecionado;
+    Menu();
+
+    if (int.TryParse(Console.ReadLine(), out menuSelecionado) == false)
+    {
+        menuSelecionado = 0;
+    }
+
+    switch (menuSelecionado)
+    {
+        case 1:
+          CadastrarNovosCarros();
+          break;
+        case 2:
+          ListarCarros();
+          break;
+        case 3:
+          showMenu = false;
+          break;
+        default:
+          Console.Clear();
+          Console.WriteLine("Opção digitada errada.\n");
+          break;
+    }
+}
+
+void Menu()
+{
+    Console.WriteLine("Menu cadastro de carro\n");
+    Console.WriteLine("Digite 1 para Cadastrar Novo Carro.");
+    Console.WriteLine("Digite 2 para Buscar Carros.");
+    Console.WriteLine("Digite 3 para Sair.");
+    Console.Write("Digite Opção do Menu: ");
 }
